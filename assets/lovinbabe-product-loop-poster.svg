@@ -1,0 +1,172 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="2000" viewBox="0 0 1600 2000" role="img" aria-labelledby="title desc">
+  <title id="title">lovin'babe product loop poster</title>
+  <desc id="desc">A warm AI for Love style poster for lovin'babe, showing an edge AI care ledger product loop.</desc>
+  <defs>
+    <linearGradient id="paper" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f7eed9"/>
+      <stop offset="0.52" stop-color="#eadfc6"/>
+      <stop offset="1" stop-color="#f5e6c5"/>
+    </linearGradient>
+    <radialGradient id="loveGlow" cx="22%" cy="18%" r="56%">
+      <stop offset="0" stop-color="#c77d6b" stop-opacity="0.28"/>
+      <stop offset="0.48" stop-color="#c77d6b" stop-opacity="0.09"/>
+      <stop offset="1" stop-color="#c77d6b" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="goldGlow" cx="80%" cy="20%" r="58%">
+      <stop offset="0" stop-color="#d99a3d" stop-opacity="0.24"/>
+      <stop offset="0.48" stop-color="#d99a3d" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#d99a3d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="coolGlow" cx="80%" cy="74%" r="56%">
+      <stop offset="0" stop-color="#9fc6bd" stop-opacity="0.26"/>
+      <stop offset="0.5" stop-color="#9fc6bd" stop-opacity="0.08"/>
+      <stop offset="1" stop-color="#9fc6bd" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="softShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="22" stdDeviation="20" flood-color="#493117" flood-opacity="0.16"/>
+    </filter>
+    <filter id="tinyShadow" x="-15%" y="-15%" width="130%" height="130%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#493117" flood-opacity="0.12"/>
+    </filter>
+    <pattern id="grain" width="72" height="72" patternUnits="userSpaceOnUse">
+      <circle cx="12" cy="20" r="1.6" fill="#fff8e2" opacity="0.46"/>
+      <circle cx="48" cy="11" r="1.2" fill="#fff8e2" opacity="0.36"/>
+      <circle cx="61" cy="54" r="1.4" fill="#fff8e2" opacity="0.34"/>
+      <path d="M8 62 L38 43" stroke="#426b52" stroke-width="1" opacity="0.09"/>
+      <path d="M52 18 L68 8" stroke="#94643b" stroke-width="1" opacity="0.08"/>
+    </pattern>
+    <style>
+      .display {
+        font-family: "Aptos Display", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+        letter-spacing: 0;
+      }
+      .body {
+        font-family: "Aptos", "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+        letter-spacing: 0;
+      }
+      .mono {
+        font-family: "Cascadia Code", "SFMono-Regular", Consolas, "Microsoft YaHei", monospace;
+        letter-spacing: 0;
+      }
+    </style>
+  </defs>
+
+  <rect width="1600" height="2000" fill="url(#paper)"/>
+  <rect width="1600" height="2000" fill="url(#loveGlow)"/>
+  <rect width="1600" height="2000" fill="url(#goldGlow)"/>
+  <rect width="1600" height="2000" fill="url(#coolGlow)"/>
+
+  <g opacity="0.42">
+    <path d="M108 520 L870 170 L1395 590 L692 824 Z" fill="#d99a3d" opacity="0.18"/>
+    <path d="M250 1560 L980 1130 L1400 1660 L612 1848 Z" fill="#d99a3d" opacity="0.16"/>
+    <path d="M70 1320 L734 940 L1140 1270 L450 1510 Z" fill="#c77d6b" opacity="0.12"/>
+    <circle cx="320" cy="340" r="185" fill="#c77d6b" opacity="0.09"/>
+    <circle cx="1170" cy="315" r="230" fill="#d99a3d" opacity="0.09"/>
+    <circle cx="1290" cy="1390" r="230" fill="#9fc6bd" opacity="0.11"/>
+    <circle cx="374" cy="1608" r="250" fill="#426b52" opacity="0.07"/>
+    <path d="M148 720 L1440 520" stroke="#94643b" stroke-width="2" opacity="0.12"/>
+    <path d="M280 174 L1320 980" stroke="#426b52" stroke-width="2" opacity="0.09"/>
+    <path d="M110 1670 L1420 1230" stroke="#94643b" stroke-width="2" opacity="0.08"/>
+  </g>
+  <rect width="1600" height="2000" fill="url(#grain)" opacity="0.52"/>
+
+  <g transform="translate(116 0)">
+    <text class="display" x="0" y="220" fill="#24312c" font-size="118" font-weight="760">lovin'babe</text>
+    <text class="body" x="5" y="340" fill="#426b52" font-size="48" font-weight="620">面向婴幼儿照护场景的端侧 AI 智能账本</text>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="116" y="468" width="1368" height="1030" rx="8" fill="rgba(255,248,226,0.74)" stroke="#534a31" stroke-opacity="0.18"/>
+    <path d="M116 468 H1484 V655 H116 Z" fill="#efe3c8" opacity="0.74"/>
+    <path d="M116 655 H1484" stroke="#534a31" stroke-opacity="0.14"/>
+  </g>
+
+  <g transform="translate(168 512)">
+    <circle cx="34" cy="34" r="18" fill="#d99a3d"/>
+    <circle cx="86" cy="34" r="18" fill="#9fc6bd"/>
+    <circle cx="138" cy="34" r="18" fill="#c77d6b"/>
+  </g>
+
+  <g transform="translate(190 720)">
+    <rect x="0" y="0" width="1220" height="520" rx="8" fill="#fff8e2" opacity="0.76" stroke="#534a31" stroke-opacity="0.16"/>
+    <path d="M108 118 C210 30 350 36 444 118 C520 184 520 298 444 366 C350 448 210 452 108 366 C20 290 22 192 108 118 Z" fill="#9fc6bd" opacity="0.18"/>
+    <path d="M772 100 C892 10 1040 48 1110 154 C1180 262 1138 410 1016 456 C890 502 746 430 724 294 C710 210 724 142 772 100 Z" fill="#d99a3d" opacity="0.12"/>
+
+    <g transform="translate(72 126)" filter="url(#tinyShadow)">
+      <rect x="0" y="0" width="244" height="270" rx="8" fill="#f7ecd1" stroke="#534a31" stroke-opacity="0.16"/>
+      <circle cx="122" cy="86" r="50" fill="#d99a3d" opacity="0.22"/>
+      <path d="M92 88 C92 62 110 48 122 48 C134 48 152 62 152 88 V130 C152 156 134 170 122 170 C110 170 92 156 92 130 Z" fill="#426b52" opacity="0.92"/>
+      <path d="M68 134 C68 184 176 184 176 134" fill="none" stroke="#426b52" stroke-width="12" stroke-linecap="round"/>
+      <path d="M122 182 V222" stroke="#426b52" stroke-width="12" stroke-linecap="round"/>
+      <path d="M92 222 H152" stroke="#426b52" stroke-width="12" stroke-linecap="round"/>
+      <text class="body" x="122" y="248" fill="#24312c" font-size="30" font-weight="720" text-anchor="middle">按住说话</text>
+    </g>
+
+    <g transform="translate(381 126)" filter="url(#tinyShadow)">
+      <rect x="0" y="0" width="244" height="270" rx="8" fill="#fffaf0" stroke="#534a31" stroke-opacity="0.16"/>
+      <rect x="45" y="48" width="154" height="154" rx="8" fill="#efe3c8" stroke="#534a31" stroke-opacity="0.12"/>
+      <path d="M70 86 H174" stroke="#d99a3d" stroke-width="12" stroke-linecap="round"/>
+      <path d="M70 122 H148" stroke="#426b52" stroke-width="10" stroke-linecap="round" opacity="0.9"/>
+      <path d="M70 158 H166" stroke="#9fc6bd" stroke-width="10" stroke-linecap="round"/>
+      <circle cx="172" cy="176" r="23" fill="#c77d6b" opacity="0.84"/>
+      <path d="M160 176 L170 187 L187 164" fill="none" stroke="#fff8e2" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+      <text class="body" x="122" y="248" fill="#24312c" font-size="30" font-weight="720" text-anchor="middle">事实卡</text>
+    </g>
+
+    <g transform="translate(690 126)" filter="url(#tinyShadow)">
+      <rect x="0" y="0" width="244" height="270" rx="8" fill="#fffaf0" stroke="#534a31" stroke-opacity="0.16"/>
+      <rect x="45" y="48" width="154" height="154" rx="8" fill="#efe3c8" stroke="#534a31" stroke-opacity="0.12"/>
+      <path d="M69 82 H175" stroke="#426b52" stroke-width="10" stroke-linecap="round"/>
+      <path d="M69 118 H175" stroke="#d99a3d" stroke-width="10" stroke-linecap="round"/>
+      <path d="M69 154 H175" stroke="#9fc6bd" stroke-width="10" stroke-linecap="round"/>
+      <path d="M69 190 H145" stroke="#c77d6b" stroke-width="10" stroke-linecap="round"/>
+      <text class="body" x="122" y="248" fill="#24312c" font-size="30" font-weight="720" text-anchor="middle">今日账本</text>
+    </g>
+
+    <g transform="translate(999 126)" filter="url(#tinyShadow)">
+      <rect x="0" y="0" width="244" height="270" rx="8" fill="#fffaf0" stroke="#534a31" stroke-opacity="0.16"/>
+      <rect x="45" y="48" width="154" height="154" rx="8" fill="#efe3c8" stroke="#534a31" stroke-opacity="0.12"/>
+      <path d="M74 160 L107 126 L134 142 L174 92" fill="none" stroke="#426b52" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+      <circle cx="74" cy="160" r="8" fill="#426b52"/>
+      <circle cx="107" cy="126" r="8" fill="#426b52"/>
+      <circle cx="134" cy="142" r="8" fill="#426b52"/>
+      <circle cx="174" cy="92" r="8" fill="#426b52"/>
+      <path d="M74 186 H174" stroke="#d99a3d" stroke-width="10" stroke-linecap="round"/>
+      <text class="body" x="122" y="240" fill="#24312c" font-size="28" font-weight="720" text-anchor="middle">智能分析</text>
+      <text class="body" x="122" y="274" fill="#24312c" font-size="28" font-weight="720" text-anchor="middle">报告</text>
+    </g>
+
+    <g fill="none" stroke="#d99a3d" stroke-width="8" stroke-linecap="round" stroke-linejoin="round" opacity="0.8">
+      <path d="M326 262 H365"/>
+      <path d="M354 246 L371 262 L354 278"/>
+      <path d="M635 262 H674"/>
+      <path d="M663 246 L680 262 L663 278"/>
+      <path d="M944 262 H983"/>
+      <path d="M972 246 L989 262 L972 278"/>
+    </g>
+  </g>
+
+  <g transform="translate(170 1360)">
+    <text class="body" x="0" y="0" fill="#5f664f" font-size="34" font-weight="620">一条记录，从端侧识别进入本地账本，再生成可复核的智能分析报告。</text>
+  </g>
+
+  <g transform="translate(116 1616)" filter="url(#softShadow)">
+    <rect x="0" y="0" width="1368" height="218" rx="8" fill="#fff8e2" opacity="0.82" stroke="#534a31" stroke-opacity="0.18"/>
+    <g transform="translate(54 54)">
+      <rect x="0" y="0" width="358" height="110" rx="8" fill="#efe3c8" stroke="#534a31" stroke-opacity="0.14"/>
+      <circle cx="48" cy="55" r="22" fill="#d99a3d"/>
+      <text class="body" x="90" y="67" fill="#24312c" font-size="34" font-weight="720">端侧语音命令</text>
+    </g>
+    <g transform="translate(504 54)">
+      <rect x="0" y="0" width="358" height="110" rx="8" fill="#efe3c8" stroke="#534a31" stroke-opacity="0.14"/>
+      <circle cx="48" cy="55" r="22" fill="#426b52"/>
+      <text class="body" x="90" y="67" fill="#24312c" font-size="34" font-weight="720">本地护理账本</text>
+    </g>
+    <g transform="translate(954 54)">
+      <rect x="0" y="0" width="358" height="110" rx="8" fill="#efe3c8" stroke="#534a31" stroke-opacity="0.14"/>
+      <circle cx="48" cy="55" r="22" fill="#c77d6b"/>
+      <text class="body" x="90" y="50" fill="#24312c" font-size="28" font-weight="720">受限Agent报告</text>
+      <text class="body" x="90" y="83" fill="#5f664f" font-size="24" font-weight="620">智能分析报告</text>
+    </g>
+  </g>
+</svg>

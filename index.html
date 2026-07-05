@@ -1,0 +1,327 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>AI for Love | Personal Portfolio</title>
+    <meta
+      name="description"
+      content="AI for Love 主题的 AI startup 创业者个人作品集，展示产品方向、代表项目、方法论和联系方式。"
+    />
+    <meta name="theme-color" content="#f2ead7" />
+    <link rel="icon" type="image/svg+xml" href="assets/favicon.svg" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <canvas class="signal-canvas" aria-hidden="true"></canvas>
+    <div class="grain" aria-hidden="true"></div>
+
+    <header class="site-header" data-reveal>
+      <a class="brand" href="#top" aria-label="回到首页">
+        <span class="brand-mark" aria-hidden="true">
+          <span class="brand-mark-inner">
+            <span class="brand-face brand-face-front">
+              <span class="sunflower-logo" aria-hidden="true">
+                <svg viewBox="0 0 40 40" focusable="false">
+                  <g class="sunflower-stem">
+                    <path d="M18 28 C15 32 12 35 8 37" />
+                    <path d="M14 33 C11 31 9 31 7 33 C10 34 12 35 14 33Z" />
+                  </g>
+                  <g class="sunflower-petals">
+                    <ellipse cx="20" cy="9" rx="3.4" ry="8.2" transform="rotate(0 20 20)" />
+                    <ellipse cx="20" cy="9" rx="3.2" ry="7.6" transform="rotate(30 20 20)" />
+                    <ellipse cx="20" cy="9" rx="3.4" ry="8.2" transform="rotate(60 20 20)" />
+                    <ellipse cx="20" cy="9" rx="3.2" ry="7.6" transform="rotate(90 20 20)" />
+                    <ellipse cx="20" cy="9" rx="3.4" ry="8.2" transform="rotate(120 20 20)" />
+                    <ellipse cx="20" cy="9" rx="3.2" ry="7.6" transform="rotate(150 20 20)" />
+                    <ellipse cx="20" cy="9" rx="3.4" ry="8.2" transform="rotate(180 20 20)" />
+                    <ellipse cx="20" cy="9" rx="3.2" ry="7.6" transform="rotate(210 20 20)" />
+                    <ellipse cx="20" cy="9" rx="3.4" ry="8.2" transform="rotate(240 20 20)" />
+                    <ellipse cx="20" cy="9" rx="3.2" ry="7.6" transform="rotate(270 20 20)" />
+                    <ellipse cx="20" cy="9" rx="3.4" ry="8.2" transform="rotate(300 20 20)" />
+                    <ellipse cx="20" cy="9" rx="3.2" ry="7.6" transform="rotate(330 20 20)" />
+                  </g>
+                  <circle class="sunflower-center" cx="20" cy="20" r="7.2" />
+                  <circle class="sunflower-core" cx="20" cy="20" r="3.4" />
+                </svg>
+              </span>
+            </span>
+            <span class="brand-face brand-face-back">
+              <span class="brand-heart"></span>
+            </span>
+          </span>
+        </span>
+        <span class="brand-text">
+          <span class="brand-name">AI for Love</span>
+          <span class="brand-motto">· 爱要有所附丽</span>
+        </span>
+      </a>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="site-nav">
+        Menu
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="主导航">
+        <a href="#work">Work | 作品</a>
+        <a href="#thesis">Idea | 理念</a>
+        <a href="#profile">Profile | 简历</a>
+        <a href="#contact">Contact | 联系</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero shell" aria-labelledby="hero-title">
+        <div class="hero-copy" data-reveal>
+          <p class="kicker">AI for Love</p>
+          <h1 id="hero-title">
+            <span class="hero-title-line">把AI产品做成有温度、</span>
+            <span class="hero-title-line">可信赖的成长系统</span>
+          </h1>
+          <p class="hero-lede">
+            我坚信并正践行的AGI之路：利用AI能力去解决生活真实的难题，用生活点滴去培养内在充盈的AI。
+          </p>
+          <div class="hero-actions" aria-label="主要行动">
+            <a class="button primary" href="#work">查看作品</a>
+            <a class="button secondary" href="#contact">联系合作</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <video
+            class="hero-video"
+            autoplay
+            muted
+            loop
+            playsinline
+            preload="metadata"
+            poster="assets/hero-signal.png"
+            data-motion-video
+            aria-label="星空中 AI 能力与生活真实难题相互连接的动态首页视觉"
+            width="1280"
+            height="720"
+          >
+            <source src="assets/hero-ai-life-growth.mp4" type="video/mp4" />
+            星空中 AI 能力与生活真实难题相互连接的动态首页视觉
+          </video>
+          <div class="visual-note">
+            <span>Product proof</span>
+            <strong>Care facts, agents, human trust</strong>
+          </div>
+        </div>
+      </section>
+
+      <section class="strip shell" aria-label="身份摘要" data-reveal>
+        <p>Founder</p>
+        <p>AI Product Builder</p>
+        <p>Edge AI</p>
+        <p>Agent Workflow</p>
+      </section>
+
+      <section class="work shell section-pad" id="work" aria-labelledby="work-title">
+        <div class="section-intro" data-reveal>
+          <h2 id="work-title">代表作品</h2>
+          <p>
+            家 · 三部曲：爱幼、敬老、渡己
+          </p>
+        </div>
+
+        <div class="work-grid">
+          <article class="case featured poster-card" data-reveal>
+            <picture>
+              <source
+                media="(max-width: 680px)"
+                srcset="assets/xiaoaiban-work-card-mobile-bleed.png"
+              />
+              <source
+                media="(max-width: 1040px)"
+                srcset="assets/xiaoaiban-work-card-bleed.png"
+              />
+              <source
+                media="(min-width: 1500px)"
+                srcset="assets/xiaoaiban-work-card-bleed.png"
+              />
+              <img
+                src="assets/xiaoaiban-work-card-bleed.png"
+                alt="小爱伴 AI 看护账本海报，屏幕展示生产端真实 HMI 界面"
+                width="1512"
+                height="1160"
+              />
+            </picture>
+            <div class="case-body">
+              <p class="case-type">爱幼</p>
+              <h3>小爱伴 / XiaoAiBan</h3>
+              <p>
+                面向婴幼儿照护场景的端侧 AI 智能账本
+              </p>
+            </div>
+          </article>
+
+          <article
+            class="case tall memoir-card"
+            data-reveal
+          >
+            <picture>
+              <source
+                media="(min-width: 681px) and (max-width: 1040px)"
+                srcset="assets/tellusmore-work-card-wide.png"
+              />
+              <img
+                src="assets/tellusmore-work-card.png"
+                alt="讲古 Tellusmore 自传整理与打印成书卡片海报"
+                width="1200"
+                height="1050"
+              />
+            </picture>
+            <div class="case-body">
+              <p class="case-type">敬老</p>
+              <h3>讲古 / Tellusmore</h3>
+              <p>
+                收集人生片段，生成独家记忆，书写家族传承
+              </p>
+            </div>
+          </article>
+
+          <article class="case compact image-backed" data-reveal>
+            <img
+              src="assets/hero-signal.png"
+              alt="温暖抽象技术信号场视觉图"
+              width="1400"
+              height="1000"
+            />
+            <div class="case-body">
+              <p class="case-type">渡己</p>
+              <h3>敬请期待</h3>
+              <p>
+                一款服务双相情感障碍人群的产品
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="thesis section-pad" id="thesis" aria-labelledby="thesis-title">
+        <div class="shell thesis-layout">
+          <div class="thesis-statement" data-reveal>
+            <h2 id="thesis-title">我的产品理念</h2>
+            <p>
+              先做小闭环，再谈大叙事。AI startup 的关键不是把模型放进一个个壳子里，而是定义真实需求、反馈机制和长期可维护的产品边界。
+            </p>
+          </div>
+          <div class="principles" aria-label="方法原则">
+            <article data-reveal>
+              <span>Data</span>
+              <h3>数据即权力</h3>
+              <p>以数据价值为锚点，全力维护以家庭为单位的数据主权</p>
+            </article>
+            <article data-reveal>
+              <span>Embedding</span>
+              <h3>人机共生</h3>
+              <p>打造面向未来的产品需要从AI native出发</p>
+            </article>
+            <article data-reveal>
+              <span>Loop</span>
+              <h3>价值闭环</h3>
+              <p>价值来自于问题解决，不来自于口号</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="profile shell section-pad" id="profile" aria-labelledby="profile-title">
+        <div class="portrait-panel" data-reveal>
+          <img
+            src="assets/profile-workspace-portrait.png"
+            alt="坐在工作台前的个人照片，身后有代码屏幕、书架和绿植"
+            width="1122"
+            height="1402"
+          />
+        </div>
+        <div class="profile-copy" data-reveal>
+          <h2 id="profile-title">关于我</h2>
+          <p>
+            我叫Alex，文科背景出身，长期在科创领域工作，在AI产品设计、系统搭建、商业落地等维度形成独特的技术理解与产品嗅觉——相信AGI的构建需要不同视角的碰撞。
+          </p>
+          <dl class="profile-list">
+            <div>
+              <dt>Focus</dt>
+              <dd>AI 软硬件产品、边缘计算、家庭Agent</dd>
+            </div>
+            <div>
+              <dt>Style</dt>
+              <dd>ADHD、重度实践者、从真实场景切入反推系统设计</dd>
+            </div>
+            <div>
+              <dt>Next</dt>
+              <dd>以RSI为代表的AI自进化路径</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="contact shell section-pad" id="contact" aria-labelledby="contact-title">
+        <div class="contact-block" data-reveal>
+          <h2 id="contact-title">合作或交流</h2>
+          <p>
+            如果你在寻找 AI 产品合伙人、早期项目顾问，或想了解我的当前创业进展，可以用以下方式联系我。
+          </p>
+          <button
+            class="button primary"
+            type="button"
+            data-contact-open
+            aria-haspopup="dialog"
+            aria-controls="contact-dialog"
+          >
+            联系方式
+          </button>
+        </div>
+        <dialog class="contact-dialog" id="contact-dialog" aria-labelledby="contact-dialog-title">
+          <div class="contact-dialog-card">
+            <button
+              class="contact-dialog-close"
+              type="button"
+              data-contact-close
+              aria-label="关闭联系方式"
+            >
+              ×
+            </button>
+            <p class="contact-dialog-kicker">Contact</p>
+            <h3 id="contact-dialog-title">联系方式</h3>
+            <p class="contact-dialog-copy">扫码添加微信或在小红书找到我。</p>
+            <div class="contact-qr-grid" aria-label="二维码联系方式">
+              <figure class="contact-qr-card">
+                <img
+                  src="assets/contact-wechat-qr.png"
+                  alt="微信二维码"
+                  width="636"
+                  height="636"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <figcaption>
+                  <span>微信</span>
+                </figcaption>
+              </figure>
+              <figure class="contact-qr-card">
+                <img
+                  src="assets/contact-xiaohongshu-qr.png"
+                  alt="小红书二维码"
+                  width="315"
+                  height="315"
+                  loading="lazy"
+                  decoding="async"
+                />
+                <figcaption>
+                  <span>小红书</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+        </dialog>
+        <footer class="footer" data-reveal>
+          <p>© 2026 AI for Love</p>
+          <a href="#top">Back to top</a>
+        </footer>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
