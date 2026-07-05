@@ -14,6 +14,24 @@ python -m http.server 5173
 
 然后访问 `http://localhost:5173/`。
 
+## 线上地址
+
+- 网站：https://inwaylaw.github.io/
+- 仓库：https://github.com/inwaylaw/inwaylaw.github.io
+- 部署记录：[`docs/github-pages-deployment.md`](docs/github-pages-deployment.md)
+
+当前通过 GitHub Pages 发布，发布源为 `main` 分支根目录。这个项目没有构建步骤，推送 `main` 后 GitHub Pages 会直接发布静态文件。
+
+## 更新上线
+
+修改完成并检查后：
+
+```powershell
+git add -- <changed-files>
+git commit -m "Update personal website"
+git push origin main
+```
+
 ## 后续可替换内容
 
 - `index.html`：姓名、邮箱、简历经历、作品案例、公开链接
